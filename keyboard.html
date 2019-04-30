@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://govuk-elements.herokuapp.com/form-elements/example-form-elements/ -->
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Example: Building in a standard way</title>
+
+
+    
+    <meta name="theme-color" content="#0b0c0c">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    
+
+<link href="./forms_files/govuk-elements-styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="screen" href="./forms_files/app.css">
+
+
+  <style>
+
+  html
+  {
+	background-color:white;
+  }
+  
+    /* Styles for this example page */
+
+    /* Indented panels within bulleted lists */
+    .list-bullet .panel-border-narrow {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      background: #F5F2F0;
+      padding-right: 15px;
+    }
+
+    /* Implementation advice */
+    .implementation-advice {
+      clear: both;
+      border-top: 1px solid #bfc1c3;
+      padding-top: 1.25em;
+    }
+
+    /* Reduce spacing before lists */
+    .lead-in {
+      margin-bottom: 0;
+    }
+
+     /* End: Styles for this example page */
+
+  </style>
+
+  </head>
+
+  <body class="js-enabled">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+
+
+
+   
+    <header role="banner" id="global-header" class="
+  with-proposition
+">
+      
+    </header>
+    
+
+    
+
+    
+
+    
+<main id="content" role="main">
+
+  
+
+
+
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Example: Keyboard support
+      </h1>
+
+      <form action="https://govuk-elements.herokuapp.com/" method="post" class="form">
+
+        <h2 class="heading-medium">
+Some users may have difficulty using a mouse and instead use other input devices, including the keyboard. If we only make content usable by the mouse many users will be disadvantaged.
+        </h2>
+
+	
+        <div class="form-section">
+
+
+          <!-- Hint text inside a label -->
+          <div class="form-group">
+            <label class="form-label-bold" for="example-form-label-bold">
+              Select today's date
+              <span class="form-hint">
+
+              </span>
+            </label>
+            <input class="form-control" id="example-form-label-bold" type="text">
+          </div>
+
+          
+          </div>
+
+        </div>
+
+        
+
+        
+
+        <!-- Input type="text" - size modifiers -->
+        
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+      </form>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </div>
+  </div>
+</main><!-- / #content -->
+
+
+    
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./forms_files/jquery.datepick.css"> 
+<script type="text/javascript" src="./forms_files/jquery.plugin.js"></script> 
+<script type="text/javascript" src="./forms_files/jquery.datepick.js"></script>
+
+<script>
+
+$(function() {
+    $('#example-form-label-bold').datepick();
+});
+
+
+
+</script>
+
+</body></html>
