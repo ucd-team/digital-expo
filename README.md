@@ -3,3 +3,6 @@
 * [Keyboard support](https://ucd-team.github.io/digital-expo/keyboard.html)
 * [Colour blindness](https://ucd-team.github.io/digital-expo/colourvision.html)
 * [Deteriorating eye conditions](https://ucd-team.github.io/digital-expo/blur.html)
+
+## Example websites
+[Google ReCAPTCHA](https://www.google.com/recaptcha/api2/demo)
